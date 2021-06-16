@@ -1,6 +1,6 @@
 #include <reg51.h>
 
-unsigned char data1[] = {0xf01,0x02,0x04,0x08};      //0000 0001, 0000 0010, 0000 0100, 0000 1000.
+unsigned char data1[] = {0x01,0x02,0x04,0x08};      //0000 0001, 0000 0010, 0000 0100, 0000 1000.
                                                     //rotates the motor anti-clockwise.
 unsigned char data2[] = {0x08,0x04,0x02,0x01};      //0000 1000, 0000 0100, 0000 0010, 0000 0001.
                                                     //rotates the motor clockwise.
