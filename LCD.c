@@ -1,4 +1,4 @@
-#include <reg51.h>
+#include <reg51.h>       //Atmel 89C51 Microcontroller library.
 #define lcd P1           //Port 1 is connected to LCD.
 
 sbit rs = P3^0;          //RS is named to Pin 0 of Port 3.
